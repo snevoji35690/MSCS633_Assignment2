@@ -1,0 +1,40 @@
+QR Code Generator – Biox Systems
+This project is a simple Python-based application that generates a QR code from any user-provided URL. It uses the qrcode and Pillow libraries to generate and display the QR code as an image. This tool is useful for converting web links into scannable QR codes that can be shared, printed, or embedded.
+
+## Features
+Accepts a URL input from the user
+Generates a high-quality QR code image
+Displays the QR code in a popup window
+Saves the QR code as a PNG file locally
+
+Getting Started
+
+## Requirements
+Python 3.x
+qrcode
+pillow
+
+Installation
+Install dependencies using pip:
+pip install qrcode[pil]
+
+## Usage
+Run the Python script:
+
+
+QRcode.py
+Enter a URL when prompted, and the QR code will be:
+
+Saved as biox_qr_code.png
+
+Displayed in a popup window (titled img)
+
+## File Structure
+QRcode.py            # Main Python script
+biox_qr_code.png           # Output QR code image
+manifest.in               # Project manifest
+
+
+
+GitHub Repository
+https://github.com/snevoji35690/MSCS633_Assignment2
